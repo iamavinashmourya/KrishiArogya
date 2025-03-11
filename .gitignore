@@ -1,0 +1,41 @@
+@"
+# Node.js dependencies
+plant-disease-detector-frontend/node_modules/
+plant-disease-detector-frontend/.npm/
+
+# Build artifacts
+plant-disease-detector-frontend/build/
+plant-disease-detector-frontend/dist/
+
+# Log files
+plant-disease-detector-frontend/npm-debug.log
+plant-disease-detector-frontend/yarn-debug.log
+plant-disease-detector-frontend/yarn-error.log
+
+# Python virtual environment
+plant-disease-detector/venv/
+plant-disease-detector/.venv/
+
+# Python cache and compiled files
+plant-disease-detector/__pycache__/
+plant-disease-detector/*.pyc
+plant-disease-detector/*.pyo
+plant-disease-detector/*.pyd
+
+# Flask instance and cache
+plant-disease-detector/instance/
+plant-disease-detector/.pytest_cache/
+plant-disease-detector/.mypy_cache/
+
+# Logs and database files
+plant-disease-detector/*.log
+plant-disease-detector/*.sqlite3
+plant-disease-detector/db.sqlite3
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding utf8 .gitignore
